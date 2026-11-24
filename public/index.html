@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>DevOps Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">DevOps Student Portal</div>
+        <div class="status">● System Online</div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <span class="tag">DEVOPS CAPSTONE PROJECT</span>
+
+            <h1>Welcome to Student Portal</h1>
+
+            <p>
+                A web application powered by automated
+                CI/CD using GitHub Actions, Docker
+                and Cloud Deployment.
+            </p>
+
+            <div class="buttons">
+                <button onclick="checkHealth()">
+                    Check Application Health
+                </button>
+
+                <button onclick="getVersion()">
+                    View Application Version
+                </button>
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <h3>Continuous Integration</h3>
+                <p>
+                    Automated testing and build
+                    verification using GitHub Actions.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Docker Containerization</h3>
+                <p>
+                    Packaging the application into
+                    portable Docker containers.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Continuous Deployment</h3>
+                <p>
+                    Automatic cloud deployment after
+                    successful pipeline execution.
+                </p>
+            </div>
+        </section>
+
+        <section class="result">
+            <h2>System Information</h2>
+            <pre id="output">Click a button to check the system.</pre>
+        </section>
+    </main>
+
+    <footer>
+        DevOps Lab Capstone Project | Version 1.0.0
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
