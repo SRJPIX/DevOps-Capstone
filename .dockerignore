@@ -1,0 +1,22 @@
+
+# Dependencies
+node_modules/
+
+# Git repository
+.git/
+.github/
+
+# Environment files
+.env
+.env.*
+
+# Test output
+coverage/
+
+# Logs
+*.log
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
